@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location is required to show nearby Pokemon.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Pokemon.ttf</string>
+	</array>
 </dict>
 </plist>

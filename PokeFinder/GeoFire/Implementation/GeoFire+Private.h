@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Firebase. All rights reserved.
 //
 
-#import <GeoFire/GeoFire.h>
+//Ezt meg kellett változtani mert nincs kész az uj swift-hez <GeoFire/GeoFire.h> volt
+#import "GeoFire.h"
 #import <CoreLocation/CoreLocation.h>
 
 @interface GeoFire (Private)
