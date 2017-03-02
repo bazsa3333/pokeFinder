@@ -28,21 +28,21 @@ class PokemonDetailsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLbl.text = pokemon.name.capitalized
-        
-        let img = UIImage(named: "\(pokemon.pokedexID)")
-        
-        mainImg.image = img
-        currentEvoImg.image = img
-        pokedexLbl.text = "\(pokemon.pokedexID)"
-        
-        pokemon.downloadPokemonDetail {
-            
-            print("Did arrive here?")
-            //akkor lesz hivva amikor a az internethivás is teljesül
-            self.updateUI()
-            
-        }
+//        nameLbl.text = pokemon.name.capitalized
+//        
+//        let img = UIImage(named: "\(pokemon.pokedexID)")
+//        
+//        mainImg.image = img
+//        currentEvoImg.image = img
+//        pokedexLbl.text = "\(pokemon.pokedexID)"
+//        
+//        pokemon.downloadPokemonDetail {
+//            
+//            print("Did arrive here?")
+//            //akkor lesz hivva amikor a az internethivás is teljesül
+//            self.updateUI()
+//            
+//        }
         
     }
     

@@ -148,6 +148,38 @@ class PokePickerVC: UIViewController, UICollectionViewDelegate, UICollectionView
         
     }
     
+//    func infoBtnTapped(_ sender: UIButton) {
+//        
+//        var selectedPokemon: Pokemon!
+//        
+//        let infoBtn = sender.superview as! UICollectionViewCell
+//        var indexPath = collectionView.indexPath(for: infoBtn)
+//        
+//        if inSearchMode {
+//            selectedPokemon = filteredPokemons[(indexPath?.row)!]
+//        } else {
+//            selectedPokemon = pokemons[(indexPath?.row)!]
+//        }
+//        
+//        performSegue(withIdentifier: "PokemonDetailsVC", sender: selectedPokemon)
+//    }
+//    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        
+//        if segue.identifier == "PokemonDetailsVC" {
+//            
+//            if let detailsVC = segue.destination as? PokemonDetailsVC {
+//                
+//                if let poke = sender as? Pokemon {
+//                    
+//                    detailsVC.pokemon = poke
+//                    
+//                }
+//                
+//            }
+//            
+//        }
+//    }
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         
