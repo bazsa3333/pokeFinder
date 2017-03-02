@@ -21,6 +21,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     var mapHasCenteredOnce = false
     var geoFire: GeoFire!
     var geoFireRef: FIRDatabaseReference!
+    
     var valueFromCollectionView: Int?
     
     override func viewDidLoad() {
@@ -54,7 +55,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             
             let csv = try CSV(contentsOfURL: path)
             let rows = csv.rows
-            //print(rows)
+            print(rows)
             
             for row in rows {
                 
@@ -196,6 +197,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     @IBAction func spotRandomPokemon(_ sender: UIButton) {
         
+        //Random pokemon on the middle of the map:
 //        let loc = CLLocation(latitude: mapView.centerCoordinate.latitude, longitude: mapView.centerCoordinate.longitude)
 //        
 //        let rand = arc4random_uniform(151) + 1
@@ -219,6 +221,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         createSighting(forLocation: loc, withPokemon: self.valueFromCollectionView!)
         
     }
+    
     
 }
 

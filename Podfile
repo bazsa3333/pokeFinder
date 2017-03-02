@@ -8,6 +8,6 @@ target 'PokeFinder' do
   # Pods for PokeFinder
   pod 'Firebase/Core'
   pod ‘Firebase/Database’
-  pod 'Alamofire', '~> 4.4'
+  pod 'Alamofire', '~> 4.3’
 
 end

@@ -14,6 +14,7 @@
 		110601F51E66FD1D006217E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110601F41E66FD1D006217E5 /* Constants.swift */; };
 		110601F71E66FD27006217E5 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110601F61E66FD27006217E5 /* csv.swift */; };
 		110601F91E66FD3C006217E5 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 110601F81E66FD3C006217E5 /* pokemon.csv */; };
+		112AC3271E672EA800D1DC2D /* PokemonDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112AC3261E672EA800D1DC2D /* PokemonDetailsVC.swift */; };
 		112B201F1E643421003426CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B201E1E643421003426CA /* AppDelegate.swift */; };
 		112B20211E643421003426CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B20201E643421003426CA /* ViewController.swift */; };
 		112B20241E643421003426CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112B20221E643421003426CA /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		110601F41E66FD1D006217E5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		110601F61E66FD27006217E5 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		110601F81E66FD3C006217E5 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		112AC3261E672EA800D1DC2D /* PokemonDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailsVC.swift; sourceTree = "<group>"; };
 		112B201B1E643421003426CA /* PokeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112B201E1E643421003426CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112B20201E643421003426CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			children = (
 				112B20201E643421003426CA /* ViewController.swift */,
 				110601EE1E66FC7E006217E5 /* PokePickerVC.swift */,
+				112AC3261E672EA800D1DC2D /* PokemonDetailsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 				112B201F1E643421003426CA /* AppDelegate.swift in Sources */,
 				112B20441E6436D3003426CA /* GeoFire.m in Sources */,
 				112B20471E6436D3003426CA /* GFGeoHashQuery.m in Sources */,
+				112AC3271E672EA800D1DC2D /* PokemonDetailsVC.swift in Sources */,
 				110601F31E66FD0A006217E5 /* PokeCell.swift in Sources */,
 				112B20481E6436D3003426CA /* GFQuery.m in Sources */,
 				110601F51E66FD1D006217E5 /* Constants.swift in Sources */,

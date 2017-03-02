@@ -8,12 +8,18 @@
 
 import UIKit
 
+protocol PokeCellDelegate {
+    func didCellBtnTapped(cell: PokeCellDelegate)
+}
+
 class PokeCell: UICollectionViewCell {
     
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var lbl: UILabel!
     
     var pokemon: Pokemon!
+    
+    var delegate: PokeCellDelegate!
     
     required init?(coder aDecoder: NSCoder) {
         
@@ -32,4 +38,5 @@ class PokeCell: UICollectionViewCell {
         
     }
     
+   
 }

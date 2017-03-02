@@ -34,6 +34,7 @@ class PokePickerVC: UIViewController, UICollectionViewDelegate, UICollectionView
         parsePokemonCSV()
         print(pokemons.count)
         
+        //Not working with the collectionView
 //        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(PokePickerVC.dismissKeyboard))
 //        
 //        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
@@ -139,12 +140,14 @@ class PokePickerVC: UIViewController, UICollectionViewDelegate, UICollectionView
             selectedPokeID = selectedPoke.pokedexID
         }
         
-        print(selectedPoke.name, selectedPokeID)
+        print("A kiválasztott pokémon: \(selectedPokeID): \(selectedPoke.name)")
         
         delegate?.selectedPokemon(value: selectedPokeID)
         
         dismiss(animated: true, completion: nil)
+        
     }
+    
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         
@@ -175,3 +178,10 @@ class PokePickerVC: UIViewController, UICollectionViewDelegate, UICollectionView
     }
 
 }
+
+
+
+
+
+
+

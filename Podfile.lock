@@ -20,7 +20,7 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.4)
+  - Alamofire (~> 4.3)
   - Firebase/Core
   - Firebase/Database
 
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
 
-PODFILE CHECKSUM: b0b43a5b71c39baa71b1da1c088649c30014e145
+PODFILE CHECKSUM: 9d11ee1498bb9e5ea507cbc5d10804b7e197dc75
 
 COCOAPODS: 1.1.1
